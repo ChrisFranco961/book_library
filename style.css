@@ -1,0 +1,122 @@
+body{
+    background-color: aqua;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#statusbutton{
+    background-color: red;
+    font-weight: bolder;
+    margin-top: 1vh;
+    border-radius: 10%;
+    box-shadow: .4vh .4vh 1vh blue;
+}
+#card_container{
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+form>input:focus{
+    border: .4vh solid aqua
+}
+form{
+    border: .3vh solid black;
+    padding: 1vh;
+    border-radius: 5%;
+    background-color:tomato;
+    font-size: 3vh;
+    box-shadow: 1vh 1vh 1vh black;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+#card_container>div{
+    background-color:chocolate;
+    font-size: 2.5vh;
+    color:thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .3vh solid black ;
+    height: fit-content;
+    padding: 2vh;
+    width: fit-content;
+    border-radius: 10%;
+    box-shadow: 1vh 2vh 3vh black;
+    min-width: 40vw;
+}
+#card_container img{
+    width: 20vw;
+    height: 20vh;
+}
+#sheel{
+    margin-top: 2vh;
+    width: 8vh;
+    height: 3vh;
+    background-image: url(./images/Xbutton.png);
+    background-position: center;
+    background-size:cover;
+}
+@media only screen and (min-width:700px){
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#card_container{
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+#card_container>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .3vh solid black ;
+    width: fit-content;
+    border-radius: 10%;
+    box-shadow: 1vh 2vh 3vh black;
+   min-width: 0;
+}
+form>input:focus{
+    border: 5px solid aqua;
+}
+#statusbutton{
+    background-color: red;
+    font-weight: bolder;
+    margin-top: 1vh;
+    border-radius: 10%;
+    box-shadow: .4vh .4vh 1vh blue;
+}
+#card_container img{
+    width: 10vw;
+    height: 20vh;
+}
+#sheel{
+    width: 5vh;
+    height: 3vh;
+    background-image: url(./images/Xbutton.png);
+    background-position: center;
+    background-size:cover;
+
+}
+#statusbutton{
+    width: 10vh;
+    font-size: 1.2vh;
+    background-position: center;
+    background-size:cover;
+}
+}
